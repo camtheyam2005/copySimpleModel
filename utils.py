@@ -58,7 +58,7 @@ def toyFunction(x, seed, output_length = 1):
     #slopes = np.random.randn(x.shape[1])  # some linear coefficients
     #y = (slopes[0]*x[:,0])**2 + (slopes[1]*x[:,1])**2
 
-    y = np.sin(x*1.3) * np.exp(-np.abs(x)) * x ** 3 + np.tanh(x) # this is the practice function
+    y = np.sin(x*1.3) * np.exp(-np.abs(x)) * x ** 3 + np.tanh(x) # this is the practice function 
 
     #function 3 - ???
     #y = slopes[0]*np.tanh(x[:,0])*x[:,1]**3 + slopes[1]*np.exp(x[:,1])*x[:,0]
